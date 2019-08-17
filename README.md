@@ -27,8 +27,9 @@ Usage of followings is a requirement:
 ### How to install
 
 1. Clone the repo https://github.com/dhirajpatra/language_group_php_frame_less.git into your project directory
-2. Run: composer install
-3. Run following commands
+2. Run: `composer install`
+3. Run test: `./vendor/bin/phpunit --bootstrap vendor/autoload.php tests/LanguageTest.php`
+4. Run following commands to run the application comman line api
 
 1. It executable from console by giving country name as parameter:
 -> `​php public/index.php Spain`
