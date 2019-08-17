@@ -33,6 +33,7 @@ Usage of followings is a requirement:
 
 1. It executable from console by giving country name as parameter:
 -> `​php public/index.php Spain`
+
 [Output]
 Country language code: es
 Spain speaks same language with these countries: Uruguay, Bolivia, Argentina..
@@ -40,5 +41,6 @@ Spain speaks same language with these countries: Uruguay, Bolivia, Argentina..
 2. In case of two parameters given, application should tell if the countries talking the same
 language or not
 ->​ `php public/index.php Spain England` or `php public/index.php "Spain" "United Kingdom"`
+
 [Output]
 Spain and England do not speak the same language
