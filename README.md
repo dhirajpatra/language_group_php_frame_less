@@ -25,7 +25,8 @@ It used following requirements:
 ### How to run from command line
 
 1. It executable from console by giving country name as parameter:
--> `​php public/index.php Spain`
+
+--- `​php public/index.php Spain`
 
 [Output]
 Country language code: es
@@ -33,8 +34,9 @@ Spain speaks same language with these countries: Uruguay, Bolivia, Argentina..
 
 2. In case of two parameters given, application should tell if the countries talking the same
 language or not. Use double quote for more than one word long country name.
-->​ `php public/index.php Spain England` 
-or `php public/index.php "Spain" "United Kingdom"`
+
+---​ `php public/index.php Spain England` 
+--- `php public/index.php "Spain" "United Kingdom"`
 
 [Output]
 Spain and England do not speak the same language
