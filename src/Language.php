@@ -129,6 +129,7 @@ class Language implements LanguageInterface
                             {
                                 if($country->name == $countryNameSecond) {
                                     $matched = true;
+                                    break;
                                 }                                
                             }
                         }                                                
